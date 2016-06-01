@@ -1,6 +1,7 @@
 This repo contains a ros node which implements the Dynamic Neighbour Selection pattern formation algorithm.
 
 The node subscribes to two topics:
+
 1. /neighbourBearings which is of type std_msgs/Float64MultiArray (an array of doubles )
 2. /compass which of type std_msgs/Float64 (a single double)
 
